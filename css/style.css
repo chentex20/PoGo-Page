@@ -30,7 +30,8 @@ li{
     transform: translateY(50px);
     padding:20px;
 }
-h1{
+h2{
+
     color: rgb(255, 255, 255);
     text-shadow:
 		0 0 5px rgba(0,178,255,1),
@@ -51,10 +52,6 @@ h1{
 }
 
 
-
-
-
-
 p{
     margin: 0;
     padding: 0;
@@ -67,3 +64,25 @@ p{
  
     text-shadow: 0 0 20px rgba(10,175, 230,1), 0 0 20px rgba(10,175, 230,0) ;
 }
+
+.clicevent {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #ff92e2b9;
+    z-index: 1;
+}
+#tcenter {
+    text-align: center;
+}
+

@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   
     <title>Document</title>
 </head>
@@ -51,9 +53,56 @@
       </div>
       
       <div class="container ">
-        <h1>EVENTOS DESTACADOS DE POKEMON GO </h1>
+        <h2>EVENTOS DESTACADOS DE POKEMON GO </h2>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+
+      <section id="container-slider">	
+        <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <li style="background-image: url('img/carusel\ 2.png'); z-index:0; opacity: 1;">
+            <div class="content_slider" >
+              <div>
+                <h2>Imagen 1</h2>
+          <p>Escribe el texto que aparecerá sobre la imagen número 1.</p>
+          <a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
+        </div>
+            </div>
+          </li>
+          <li style="background-image: url('img/carusel\ 1.png'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Imagen 2</h2>
+          <p>Escribe el texto que aparecerá sobre la imagen número 2</p>
+          <a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
+        </div>
+            </div>
+          </li>
+          <li style="background-image: url('img/carusel\ 3.png'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Imagen 3</h2>
+          <p>Escribe el texto que aparecerá sobre la imagen número 3</p>
+          <a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
+        </div>
+            </div>
+          </li>
+       </ul>
+     </section>
+         </body>
+         
       </div>
     <script src="/js/scrip.js"></script>
+    <script src="/js/funciones.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
