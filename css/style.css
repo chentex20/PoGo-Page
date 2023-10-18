@@ -11,12 +11,6 @@ body {
     background-size: 100%;
 }
 
-
-/*NavBar*/
-.logo{
-    margin-left: 30px;
-    font-weight: bold;
-}
 li{
     list-style: none;
     margin-left: 20px;
@@ -86,3 +80,23 @@ p{
     text-align: center;
 }
 
+.coordenada{
+    color: rgb(255, 255, 255);
+    text-shadow:
+		0 0 5px rgb(255, 0, 0),
+		0 0 10px rgb(255, 0, 0),
+		0 0 20px rgb(255, 8, 0),
+		0 0 40px rgb(127, 38, 38),
+		0 0 80px rgb(127, 38, 38),
+		0 0 90px rgb(127, 38, 38),
+		0 0 100px rgb(127, 38, 38),
+		0 0 140px rgb(127, 38, 38),
+		0 0 180px rgb(127, 38, 38);   
+}
+
+
+.banner {
+    background: #a770ef;
+    background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  }

@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   
-    <title>PokeFriends</title>
+    <title>Coordenadas</title>
 </head>
 <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -23,10 +23,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link"  href="/index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/html/coordenada.html">Coordenadas</a>
+                    <a class="nav-link active"  aria-current="page" href="/html/coordenada.html">Coordenadas</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Eventos</a>
@@ -38,13 +38,10 @@
               </div>
             </div>
           </nav>
-    
-    <div class="container">
-       
+    <br>
+    <br>
+    <div>
         <div class="text-center">
-            <p> <img src="/img/PoGo.png" class="img-fluid" > </p>
-            <br>
-           
             <div class="reloj">
                 <p class="fecha"></p>
                 <p class="tiempo"></p>
@@ -53,51 +50,71 @@
       </div>
       
       <div class="container ">
-        <h2>EVENTOS DESTACADOS DE POKEMON GO </h2>
+        <h1 class="coordenada">Coordenadas.</h1>
       </div>
-      <br>
-      <br>
-      <br>
       
+      <div class="container-fluid">
+        <div class="px-lg-4">
+          <br>
+          <br>
+          <br>
+          <br>     
+          <div class="row">
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="/img/gpxrutas.jfif" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark">GPX RUTAS</a></h5>
+                  <p class="small text-muted mb-0">Rutas GPX Descargables</p>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- End -->
+      
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="/img/farmeo.jfif" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark">FARMEO</a></h5>
+                  <p class="small text-muted mb-0">Lista de lugares con mayor concentración de pokeparadas y gyms.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <!-- End -->
 
-      <section id="container-slider">	
-        <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
-        <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
-        <ul class="listslider">
-          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
-          <li><a itlist="itList_1" href="#"></a></li>
-          <li><a itlist="itList_2" href="#"></a></li>
-        </ul>
-        <ul id="slider">
-          <li style="background-image: url('img/carusel\ 2.png'); z-index:0; opacity: 1;">
-            <div class="content_slider" >
-              <div>
-                <h2>Imagen 1</h2>
-          <p>Escribe el texto que aparecerá sobre la imagen número 1.</p>
-          <a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
-        </div>
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="/img/horario.jpg" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark">HORARIO</a></h5>
+                  <p class="small text-muted mb-0">Horarios muniales</p>
+                  
+                </div>
+              </div>
             </div>
-          </li>
-          <li style="background-image: url('img/carusel\ 1.png'); ">
-            <div class="content_slider" >
-              <div>
-                <h2>Imagen 2</h2>
-          <p>Escribe el texto que aparecerá sobre la imagen número 2</p>
-          <a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
-        </div>
+            <!-- End -->
+            <!-- Gallery item -->
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+              <div class="bg-white rounded shadow-sm"><img src="/img/mapas.avif" alt="" class="img-fluid card-img-top">
+                <div class="p-4">
+                  <h5> <a href="#" class="text-dark">MAPAS</a></h5>
+                  <p class="small text-muted mb-0">Lista de los mapas que hay actualmente en Pokémon GO. </p>
+                  
+                </div>
+              </div>
             </div>
-          </li>
-          <li style="background-image: url('img/carusel\ 3.png'); ">
-            <div class="content_slider" >
-              <div>
-                <h2>Imagen 3</h2>
-          <p>Escribe el texto que aparecerá sobre la imagen número 3</p>
-          <a href="https://www.migueltroyano.com" target="_blank" class="btnSlider">Acceder</a>
+            <!-- End -->
+            
+      
+            
+      
+          </div>
+          <div class="py-5 text-right"><a href="#" class="btn btn-dark px-5 py-3 text-uppercase">Show me more</a></div>
         </div>
-            </div>
-          </li>
-       </ul>
-     </section>
+      </div>
+
          </body>
          
 
